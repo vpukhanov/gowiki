@@ -24,3 +24,7 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+
+# Data folder with Wiki files
+data/*
+!data/.gitkeep
