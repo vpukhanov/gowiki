@@ -45,7 +45,7 @@
 <div class="page">
     <h1>{{.Title}}</h1>
 
-    <div>{{ printf "%s" .Body }}</div>
+    <div>{{ .Body | safeHTML }}</div>
 
     <p><a href="/edit/{{.Title}}">Edit this page</a></p>
 </div>
